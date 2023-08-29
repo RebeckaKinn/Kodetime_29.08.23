@@ -1,0 +1,31 @@
+html {
+    background-color: azure;
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 98vh;
+  }
+  
+  input {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    font-size: 32px;
+  }
+  
+  button {
+    width: 5%;
+    height: 3%;
+  }
+  
+  button:active {
+    scale: 0.9;
+  }
+  
+  #mathProblem {
+    font-size: 64px;
+  }
